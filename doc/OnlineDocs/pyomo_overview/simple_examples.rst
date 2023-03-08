@@ -172,7 +172,7 @@ component is a set, so it is defined as an index set for the variable. In
 this case the variable has only one index set, but multiple sets could
 be used as was the case for the declaration of the parameter
 ``model.a``. The second argument specifies a domain for the
-variable. This information is part of the model and will passed to the
+variable. This information is part of the model and will be passed to the
 solver when data is provided and the model is solved. Specification of
 the ``NonNegativeReals`` domain implements the requirement that the
 variables be greater than or equal to zero.
